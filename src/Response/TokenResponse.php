@@ -4,6 +4,7 @@ namespace SSitdikov\ATOL\Response;
 
 class TokenResponse implements ResponseInterface
 {
+    use ToArrayTrait;
 
     private $token;
     private $text;

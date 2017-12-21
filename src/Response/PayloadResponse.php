@@ -4,6 +4,8 @@ namespace SSitdikov\ATOL\Response;
 
 class PayloadResponse implements ResponseInterface
 {
+    use ToArrayTrait;
+
     private $total;
     private $fnsSite;
     private $fnNumber;

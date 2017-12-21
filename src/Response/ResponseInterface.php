@@ -6,4 +6,6 @@ interface ResponseInterface
 {
 
     public function __construct(\stdClass $json);
+
+    public function toArray(): array;
 }

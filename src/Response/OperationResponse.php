@@ -4,6 +4,7 @@ namespace SSitdikov\ATOL\Response;
 
 class OperationResponse implements ResponseInterface
 {
+    use ToArrayTrait;
 
     const SELL_STATUS_WAIT = 'wait';
     const SELL_STATUS_DONE = 'done';

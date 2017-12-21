@@ -4,6 +4,7 @@ namespace SSitdikov\ATOL\Response;
 
 class ErrorResponse implements ResponseInterface
 {
+    use ToArrayTrait;
 
     /**
      * @var int

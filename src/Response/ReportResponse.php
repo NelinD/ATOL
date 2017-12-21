@@ -4,6 +4,7 @@ namespace SSitdikov\ATOL\Response;
 
 class ReportResponse implements ResponseInterface
 {
+    use ToArrayTrait;
 
     const STATUS_DONE = 'done';
     const STATUS_FAIL = 'fail';
